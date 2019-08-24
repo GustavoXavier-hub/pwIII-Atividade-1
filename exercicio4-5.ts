@@ -1,12 +1,12 @@
 
-let n: number = 5
-let funcao = function(nm: number): boolean{
+let n: number = 2
+let funcao = function(nm: number):/*void*/ boolean{
     if(n%2 == 0){
-        console.log('par')
+        //console.log('par')
         return true
     }
     else{
-        console.log('impar')
+        //console.log('impar')
         return false
     }
 }

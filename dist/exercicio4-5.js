@@ -1,11 +1,11 @@
-var n = 5;
+var n = 2;
 var funcao = function (nm) {
     if (n % 2 == 0) {
-        console.log('par');
+        //console.log('par')
         return true;
     }
     else {
-        console.log('impar');
+        //console.log('impar')
         return false;
     }
 };
