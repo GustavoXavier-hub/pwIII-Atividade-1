@@ -1,20 +1,16 @@
-let numeropar: number
-let numeroimpar: number
 
-
-if ((numeropar %2) == 0){
-    let resultado: boolean = true
-    } 
-
-    else {
-    let resultadoone: boolean = false
+let n: number = 5
+let funcao = function(nm: number): boolean{
+    if(n%2 == 0){
+        console.log('par')
+        return true
     }
-    
-    return (numeropar, numeroimpar) {
-    
+    else{
+        console.log('impar')
+        return false
     }
+}
 
-    let resultado: = (numeropar, numeroimpar) % 2 
 
+console.log(funcao(n))
 
-console.log (`o número é%2{resultado(numeropar,numeroimpar)}`)
